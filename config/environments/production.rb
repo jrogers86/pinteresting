@@ -79,4 +79,6 @@ Rails.application.configure do
   # Required for Heroku
   # Note to set thos to your actual host
   config.action_mailer.default_url_options = { :host => 'omr-pinterestingsite.herokuapp.com'}
+
+  config.serve_static_assets = true
 end
